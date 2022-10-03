@@ -1,0 +1,21 @@
+Important notes about the program:
+
+1.) The program is meant to simulate the screen of an ATM. There is obviously no real cash transactions, however the goal of this project
+	was to explore the visual coding workflow and see if I could make an ATM UI on my own.
+
+2.) when testing the login, the correct credentials are as follows:
+	Card: 1111-2222-3333-4444
+	Pin: 1234
+
+3.) the program has some hidden developer features that will hopefully make navigating this project a bit easier for you. 
+	Obviously if this was a real ATM Software that was being released to the public i would take these features out,
+	but since its just a personal project i decided to leave them in for you.
+
+	First, if you click ZZZ Bank logo on the log in screen it will bypass the log in so you dont have to enter the card and pin numbers every time.
+	Second, there is a button on the log in screen that will reset the database to its default values for easier testing.
+	Third, you can check how much you have left of your daily limit to spend under the check balance menu.
+
+	Hopefully this makes your testing process a bit simpler.
+
+4.) The daily limit is only set up for depositing and withdrawing, as those are the only two functions that 
+	would theoretically actually move money from within the machine in real life.
